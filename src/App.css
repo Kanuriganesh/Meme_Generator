@@ -1,15 +1,80 @@
-.first {
-  width: 100vw; /* Full width of the viewport */
-  height: 100%; /* Height of the content or viewport */
-  min-height: 100vh; /* At least the height of the viewport */
-  overflow-y:hidden; /* Enable vertical scrolling when content overflows */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  box-sizing: border-box; /* Ensure padding and border are included in the dimensions */
-  background-color: lightgray; /* Optional: Background color for visibility */ 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; 
-  
+.sub-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png");
+    height: 100vw;
+    background-size: cover;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+    @media screen and (max-width: 900px) {
+        .sub-container {
+            background-image: url("https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png");
+            background-repeat: no-repeat; /* Ensures no repeating of the image */
+            background-size: cover; /* Covers the entire container */
+            background-position: center; /* Centers the image */
+            height: 60vh; /* Maintains the desired height */
+            box-sizing: border-box; /* Includes padding and border in dimensions */
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+.input-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4px;
+}
+.font-style{
+    color:#ffffff;
+    font-size:15px;
+    position: absolute;
+    margin-top:10px;
+    margin-left: 180px;
+}
+.input-styling{
+    width: 200px; 
+    height: 30px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;  
+    border-radius: 4px; 
+    color:#cbd5e1; 
+    font-size:17px;
+}
+.next-contianer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    padding:25px;
+}
+.heading1{
+    font-family: "Roboto";
+    color:#ffffff;
+}
+.paragraph{
+    font-family: "Roboto";
+    color:#ffffff; 
+    font-size:24px;
+    margin-left: 15px;
+}
+.heading{
+    font-family: "Roboto";
+    color:#ffffff; 
+    font-size:38px;
+    margin-left: 15px;
+}
+.ghani{
+    font-family: "Roboto";
+    color:#ffffff; 
+    font-size:50px;
+    font-weight: bold;
+    margin-top:50px;
+    text-align: center;
 }
