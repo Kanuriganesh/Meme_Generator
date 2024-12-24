@@ -2,7 +2,7 @@ import React from 'react'
 import { Component } from 'react'; 
 import './App.css'
 import Index from './components/index.js';
-import StyledComponents from './components/StyledComponents.js'
+import StyledComponents from './components/StyledComponents.js';
 class App extends Component{
     state={generateMeme:false,imageUrl:"",topText:"",bottomText:"",fontSize:""} 
     

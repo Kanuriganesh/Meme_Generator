@@ -29,7 +29,7 @@ const Index=props=>{
     }
     return(
        <div className='meme-sub-contianer'>  
-           <h1 className='heading'>Meme Generator</h1>  
+           <h1 className='headingg'>Meme Generator</h1>  
            <div className='sub-container'>
            <label for="imageurl">Image URL</label>
            <input id="imageurl"  onChange={updateTheImage} type="text" placeholder='Enter the Image URL'/> 
