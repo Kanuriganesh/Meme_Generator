@@ -1,0 +1,60 @@
+.meme-sub-contianer{
+    display: flex;
+    flex-direction: column; 
+    width: 30vw; 
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding:20px;  
+    border-radius: 4px;  
+    margin-top: 60px;
+}
+.heading12{
+    font-family: "Roboto";
+    color:#ffffff; 
+
+}
+.button-element{
+    font-family: "Roboto";
+    color:#ffffff;  
+    width: 8vw;
+    height: 37px;
+    background-color: #0b69ff; 
+    border-width: 0px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.heading{
+    font-family: "Roboto";
+    color: #35469c;
+    margin-left: 6px;
+}
+.meme-sub-contianer input{
+    font-family: "Roboto";
+    width: 20vw; 
+    border-radius: 3px;  
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #d7dfe9; 
+    height: 30px;
+}
+.sub-container{
+    margin:8px;  
+    display: flex;
+    flex-direction: column;
+}
+.meme-sub-contianer label{
+    font-family: "Roboto";
+    color:#1e293b;  
+    font-size: 13px;
+    margin-bottom:4px;
+}
+.meme-sub-contianer select{
+    width: 20vw; 
+    height: 30px;
+}
